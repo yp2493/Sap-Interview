@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "*********** OS *************
-cat /etc/os-release
+cat lsb_release -a
 echo "*********** CPU ***********
 cat /proc/cpuinfo
 echo "**************Memory********"
